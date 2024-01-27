@@ -1,0 +1,34 @@
+.blocks .block{
+    flex: 1 45%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 3rem 1rem;
+}
+
+.blocks .block__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #191919;
+    margin-bottom: 1rem;
+}
+
+.blocks .block__teams {
+    gap: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.6rem;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #adc2c8;
+}
+
+.blocks .block__teams p {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #191919;
+}

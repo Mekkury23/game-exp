@@ -1,0 +1,110 @@
+.phases-column {
+    flex: 2;
+    display: flex;
+    min-width: 15rem;
+    border-radius: 0.8rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #d5d5d5;
+  }
+  
+  .phases-column .header {
+    width: 100%;
+  }
+  
+  .phases-column .header span {
+    color: #010101;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.8rem;
+  }
+  
+  .header span:nth-child(1) {
+    background-color: #f0ce09;
+    color: #010101;
+}
+
+.phases-column .phases-list {
+    gap: 1rem;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    color: #010101;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.phases-column .phases-list .cost {
+    background-color: #858585;
+    width: 100%;
+}
+
+.phases-column .phases-list .credit {
+    color: #f0ce09;
+}
+
+.phases-column .phases-list .credit-circle {
+    gap: 1rem;
+    display: flex;
+    width: 2.125rem;
+    height: 2.125rem;
+    color: #010101;
+    border-radius: 50%;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+}
+
+.phases-column .phases-list .cost p{
+    color: #ffffff;
+}
+
+.phases-column .phases-list .number {
+    width: 2.125rem;
+    height: 2.125rem;
+    border-radius: 50%;
+    gap: 1rem;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0ce09;
+}
+
+.phases-column .phases-list p:nth-child(2){
+    color: #010101;
+}
+  
+  .title {
+    gap: 3rem;
+    width: 100%;
+    display: flex;
+    color: #2c7097;
+    font-weight: 700;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .phases-column .phases-list .product {
+    width: 100%;
+    gap: 5.5rem;
+    display: flex;
+    color: #010101;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .phases-column .button {
+    color: #010101;
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: auto;
+    background-color: #f0ce09;
+  }
+  

@@ -1,0 +1,63 @@
+.startup-column {
+    display: flex;
+    min-width: 100%;
+    border-radius: 0.8rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #f0ce09;
+  }
+  
+  .startup-column .header{
+      width: 80%;
+  }
+  
+  .startup-column .header span {
+      color: #fff;
+      padding: 10px;
+      font-size: 1rem;
+      font-weight: 500;
+      border-radius: 0.8rem;
+    }
+    
+    .startup-column .header span:nth-child(1){
+      background-color: #d5d5d5;
+      color: #010101;
+  }
+  
+  .startup-column .startup-list {
+    gap: 1rem;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .title {
+    gap: 3rem;
+    width: 100%;
+    display: flex;
+    color: #2c7097;
+    font-weight: 700;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .startup-column .startup-list .player {
+      width: 100%;
+      gap: 5.5rem;
+      display: flex;
+      font-weight: 700;
+      align-items: center;
+      justify-content: flex-start;
+  }
+  
+  .startup-column .startup .player .player-name {
+      width: 100%;
+  }
+  .startup-column .startup .player .player-team {
+      width: 100%;
+  }
+  

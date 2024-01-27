@@ -1,0 +1,33 @@
+nav{
+    width: 100%;
+    display: flex;
+    color: #f0ce09;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 150px;
+}
+
+nav .logo img{
+    width: 100%;
+}
+
+nav ul{
+    gap: 2.5rem;
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+nav a{
+    color: #f0ce09;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #fff;
+}
